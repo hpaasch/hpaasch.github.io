@@ -149,7 +149,7 @@ h6 {
   letter-spacing: 1px;
   color: #ffffff;
   border-radius: 3px;
-  box-shadow: none;
+  box-shadow: none !important;
 }
 
 .btn.btn-custom:hover {
@@ -165,7 +165,7 @@ h6 {
     padding: 6px 12px;
     font-size: 16px;
     line-height: 1.42857143;
-    box-shadow: none;
+    box-shadow: none !important;
   }
 }
 
