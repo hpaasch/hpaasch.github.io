@@ -25,8 +25,7 @@
     <link href="static/main_app/plugins/icons-mind/style.css" rel="stylesheet" type="text/css">
     <link href="static/main_app/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    <!-- Plugins CSS DISABLED LAST THREE 2-10-2019
-    <link href={% static "main_app/plugins/jpreloader/css/jpreloader.css" %} rel="stylesheet" type="text/css">-->
+    <!-- Plugins CSS DISABLED 2-10-2019 -->
     <link href="static/main_app/plugins/animate-css/animate.min.css" rel="stylesheet" type="text/css">
     <link href="static/main_app/plugins/magnificPopup/magnific-popup.css" rel="stylesheet" type="text/css">
     <link href="static/main_app/plugins/flexSlider/flexslider.css" rel="stylesheet" type="text/css">
@@ -37,10 +36,6 @@
     <!-- Color CSS DISABLED 2-10-2019-->
     <link href="static/main_app/css/colors/blue.css" rel="stylesheet" type="text/css">
 
-    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 8]>
-    <script src={% static "main_app/plugins/modernizr.min.js" %}></script>
-    <![endif]-->
 </head>
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
@@ -180,7 +175,7 @@
                                 <!-- //.col-md-5 -->
 
                                 <div class="col-sm-6 col-md-7">
-                                    <a href={% static "main_app/images/hep_resume.pdf" %} class="btn btn-lg btn-custom" download='HEPaasch resume'>
+                                    <a href="static/main_app/images/hep_resume.pdf" class="btn btn-lg btn-custom" download='HEPaasch resume'>
                                         <i class="icon-File-Download"></i> Download Resume
                                     </a>
                                 </div>
@@ -196,7 +191,7 @@
                     <!-- PROFILE PICTURE START -->
                     <div class="col-md-5 hidden-xs hidden-sm match-height pp-wrapper">
                         <div class="profile-picture style-one">
-                            <img src={% static "main_app/images/profile-picture-2.jpg" %} alt="profile picture" class="img-responsive"/>
+                            <img src="static/main_app/images/profile-picture-2.jpg" alt="profile picture" class="img-responsive"/>
                         </div>
                     </div>
                     <!-- //PROFILE PICTURE END -->
@@ -232,7 +227,7 @@
                         <div class="item col-sm-6 col-md-3">
                             <div class="project-wrapper">
                                 <div class="project-link">
-                                    <a href={% static "main_app/images/portfolio/project-image-1.jpg" %} class="zoom" title="Presidential Dinner Party">
+                                    <a href="static/main_app/images/portfolio/project-image-1.jpg" class="zoom" title="Presidential Dinner Party">
                                         <i class="icon-Full-Screen"></i>
                                     </a>
 
@@ -248,7 +243,7 @@
                                 </div>
                                 <!-- //.project-title -->
 
-                                <img src={% static "main_app/images/portfolio/project-image-1.jpg" %} alt="" class="img-responsive"/>
+                                <img src="static/main_app/images/portfolio/project-image-1.jpg" alt="" class="img-responsive"/>
                             </div>
                             <!-- //.project-wrapper -->
                         </div>
@@ -257,7 +252,7 @@
                         <div class="item col-sm-6 col-md-3">
                             <div class="project-wrapper">
                                 <div class="project-link">
-                                    <a href={% static "main_app/images/portfolio/project-image-2.jpg" %} class="zoom" title="Track-n-Share">
+                                    <a href="static/main_app/images/portfolio/project-image-2.jpg" class="zoom" title="Track-n-Share">
                                         <i class="icon-Full-Screen"></i>
                                     </a>
 
@@ -273,7 +268,7 @@
                                 </div>
                                 <!-- //.project-title -->
 
-                                <img src={% static "main_app/images/portfolio/project-image-2.jpg"%} alt="" class="img-responsive"/>
+                                <img src="static/main_app/images/portfolio/project-image-2.jpg" alt="" class="img-responsive"/>
                             </div>
                             <!-- //.project-wrapper -->
                         </div>
@@ -285,7 +280,7 @@
                         <div class="item col-sm-6 col-md-3">
                             <div class="project-wrapper">
                                 <div class="project-link">
-                                    <a href={% static "main_app/images/portfolio/project-image-4.jpg"%} class="zoom" title="rePurpose yardsales">
+                                    <a href="static/main_app/images/portfolio/project-image-4.jpg" class="zoom" title="rePurpose yardsales">
                                         <i class="icon-Full-Screen"></i>
                                     </a>
 
@@ -303,7 +298,7 @@
                                 </div>
                                 <!-- //.project-title -->
 
-                                <img src={% static "main_app/images/portfolio/project-image-4.jpg" %} alt="" class="img-responsive"/>
+                                <img src="static/main_app/images/portfolio/project-image-4.jpg" alt="" class="img-responsive"/>
                             </div>
                             <!-- //.project-wrapper -->
                         </div>
@@ -311,7 +306,7 @@
                         <div class="item col-sm-6 col-md-3">
                             <div class="project-wrapper">
                                 <div class="project-link">
-                                    <a href={% static "main_app/images/portfolio/project-image-3.jpg" %} class="zoom" title="Lake Norman Swapshop">
+                                    <a href="static/main_app/images/portfolio/project-image-3.jpg" class="zoom" title="Lake Norman Swapshop">
                                         <i class="icon-Full-Screen"></i>
                                     </a>
 
@@ -327,14 +322,11 @@
                                 </div>
                                 <!-- //.project-title -->
 
-                                <img src={% static "main_app/images/portfolio/project-image-3.jpg" %} alt="" class="img-responsive"/>
+                                <img src="static/main_app/images/portfolio/project-image-3.jpg" alt="" class="img-responsive"/>
                             </div>
                             <!-- //.project-wrapper -->
                         </div>
                         <!-- //.item -->
-
-
-
 
                     </div>
                     <!-- //.row -->
@@ -612,7 +604,7 @@
                                     <div id="education1" class="panel-collapse collapse in">
                                         <div class="panel-body text-grey">
                                             <p>
-                                                Attended May-August 2016 at <a href="https://www.theironyard.com/">The Iron Yard's</a> headquarters campus in Greenville, SC. My instructor was Joel Taddei, a full-stack web developer with a special affinity for data science. Certificate of completion awarded. This three-month immersive coding course focused on Python, Django and RESTful APIs. The pace was fast, and the hours were long. I typically put in 80 hours per week, between lectures, nightly homework and weekend projects. The Yard's approach taught me how to work through a challenge, to find answers and solutions.
+                                                Attended May-August 2016 at The Iron Yard's headquarters campus in Greenville, SC. My instructor was Joel Taddei, a full-stack web developer with a special affinity for data science. Certificate of completion awarded. This three-month immersive coding course focused on Python, Django and RESTful APIs. The pace was fast, and the hours were long. I typically put in 80 hours per week, between lectures, nightly homework and weekend projects. The Yard's approach taught me how to work through a challenge, to find answers and solutions.
                                             </p>
                                         </div>
                                         <!-- //.panel-body -->
@@ -857,7 +849,7 @@
                                 <div class="item">
                                     <div class="animated" data-animation-effect="flipInX">
                                         <div class="profile hidden-xs">
-                                            <img src={% static "main_app/images/references/profile-image-1.jpg" %} alt="" class="img-responsive img-circle img-thumbnail"/>
+                                            <img src="static/main_app/images/references/profile-image-1.jpg" alt="" class="img-responsive img-circle img-thumbnail"/>
                                         </div>
 
                                         <div class="content">
@@ -873,7 +865,7 @@
                                             <p class="source">
                                                 Cheryl Carpenter
                                                 <br>
-                                                <span>McClatchy Washington bureau chief</span>
+                                                <span>Leadership faculty at The Poynter Institute</span>
                                             </p>
                                         </div>
                                         <!-- //.content -->
@@ -886,7 +878,7 @@
                                 <div class="item">
                                     <div class="animated" data-animation-effect="flipInX">
                                         <div class="profile hidden-xs">
-                                            <img src={% static "main_app/images/references/profile-image-3.jpg" %} alt="" class="img-responsive img-circle img-thumbnail"/>
+                                            <img src="static/main_app/images/references/profile-image-3.jpg" alt="" class="img-responsive img-circle img-thumbnail"/>
                                         </div>
 
                                         <div class="content">
@@ -899,7 +891,7 @@
                                             <p class="source">
                                                 Mordecia Strickland
                                                 <br>
-                                                <span>Charlotte Observer senior editor for online</span>
+                                                <span>Former Charlotte Observer senior editor for online</span>
                                             </p>
                                         </div>
                                         <!-- //.content -->
@@ -911,7 +903,7 @@
                                 <div class="item">
                                     <div class="animated" data-animation-effect="flipInX">
                                         <div class="profile hidden-xs">
-                                            <img src={% static "main_app/images/references/profile-image-2.jpg" %} alt="" class="img-responsive img-circle img-thumbnail"/>
+                                            <img src="static/main_app/images/references/profile-image-2.jpg" alt="" class="img-responsive img-circle img-thumbnail"/>
                                         </div>
 
                                         <div class="content">
@@ -924,7 +916,7 @@
                                             <p class="source">
                                                 Neil Mara
                                                 <br>
-                                                <span>Director of Publishing Applications, McClatchy Technology</span>
+                                                <span>News Technology consultant</span>
                                             </p>
                                         </div>
                                         <!-- //.content -->
@@ -939,15 +931,15 @@
                             <div class="flexslider-controls">
                                 <ul class="flex-control-nav">
                                     <li>
-                                        <img src={% static "main_app/images/references/profile-image-1.jpg" %} alt="" class="img-responsive"/>
+                                        <img src="static/main_app/images/references/profile-image-1.jpg" alt="" class="img-responsive"/>
                                     </li>
 
                                     <li>
-                                        <img src={% static "main_app/images/references/profile-image-3.jpg" %} alt="" class="img-responsive"/>
+                                        <img src="static/main_app/images/references/profile-image-3.jpg" alt="" class="img-responsive"/>
                                     </li>
 
                                     <li>
-                                        <img src={% static "main_app/images/references/profile-image-2.jpg" %} alt="" class="img-responsive"/>
+                                        <img src="static/main_app/images/references/profile-image-2.jpg" alt="" class="img-responsive"/>
                                     </li>
 
                                 </ul>
@@ -1091,8 +1083,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="copyright text-center">
-                      <p class="text-grey">Content &copy 2016 Hope E. Paasch</p>
-                        <p class="text-grey">Design modified from a 2015 Nick Berg template</p>
+                      <p class="text-grey">Content &copy 2019 Hope E. Paasch</p>
+                        <p class="text-grey">Design modified from a Nick Berg template</p>
                     </div>
                     <!-- //.copyright -->
                 </div>
@@ -1106,21 +1098,21 @@
 
 
     <!-- Plugins JS -->
-    <script src={% static "main_app/plugins/jquery.min.js" %}></script>
-    <script src={% static "main_app/plugins/bootstrap/js/bootstrap.min.js" %}></script>
-    <script src={% static "main_app/plugins/jpreloader/js/jpreloader.min.js" %}></script>
-    <script src={% static "main_app/plugins/detectmobilebrowser/detectmobilebrowser.js" %}></script>
-    <script src={% static "main_app/plugins/debouncer/debouncer.js" %}></script>
-    <script src={% static "main_app/plugins/easing/jquery.easing.min.js" %}></script>
-    <script src={% static "main_app/plugins/sticky/jquery.sticky.js" %}></script>
-    <script src={% static "main_app/plugins/inview/jquery.inview.min.js" %}></script>
-    <script src={% static "main_app/plugins/matchHeight/jquery.matchHeight-min.js" %}></script>
-    <script src={% static "main_app/plugins/magnificPopup/jquery.magnific-popup.min.js" %}></script>
-    <script src={% static "main_app/plugins/flexSlider/jquery.flexslider-min.js" %}></script>
-    <script src={% static "main_app/plugins/countTo/jquery.countTo.js" %}></script>
+    <script src="static/main_app/plugins/jquery.min.js"></script>
+    <script src="static/main_app/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/main_app/plugins/jpreloader/js/jpreloader.min.js"></script>
+    <script src="static/main_app/plugins/detectmobilebrowser/detectmobilebrowser.js"></script>
+    <script src="static/main_app/plugins/debouncer/debouncer.js"></script>
+    <script src="static/main_app/plugins/easing/jquery.easing.min.js"></script>
+    <script src="static/main_app/plugins/sticky/jquery.sticky.js"></script>
+    <script src="static/main_app/plugins/inview/jquery.inview.min.js"></script>
+    <script src="static/main_app/plugins/matchHeight/jquery.matchHeight-min.js"></script>
+    <script src="static/main_app/plugins/magnificPopup/jquery.magnific-popup.min.js"></script>
+    <script src="static/main_app/plugins/flexSlider/jquery.flexslider-min.js"></script>
+    <script src="static/main_app/plugins/countTo/jquery.countTo.js"></script>
 
     <!-- Main JS -->
-    <script src={% static "main_app/js/main.js" %}></script>
+    <script src="static/main_app/js/main.js"></script>
 
 </body>
 
