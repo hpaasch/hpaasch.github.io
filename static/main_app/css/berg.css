@@ -149,6 +149,7 @@ h6 {
   letter-spacing: 1px;
   color: #ffffff;
   border-radius: 3px;
+  box-shadow: none;
 }
 
 .btn.btn-custom:hover {
